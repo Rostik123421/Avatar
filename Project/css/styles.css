@@ -1,0 +1,193 @@
+ul,h2,li,p,a {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+
+
+.header {
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(15, 72, 117, 0.87)),url(../img/Avatar-Head.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 1440px;
+}
+
+.head-btn {
+    margin-left: 1095px;
+    background-color: #0B0E66;
+    width: 141px;
+    height: 42px;
+    border: 2px solid #26C7EA;
+    border-radius: 35px 0px;
+    text-decoration-color: #26C7EA;
+    line-height: 1.25;
+}
+
+
+.nav-list {
+    color: #ffff;
+    display: block;
+    justify-content: space-between;
+}
+
+.nav-list:hover,:focus {
+    color: #94CFFF;
+}
+
+
+
+.hero {
+   background-image: url(../img/Avatar-Hero.jpg);
+   height: 740px;
+   width: 1440px;
+ margin-top: 5px;
+
+}
+
+.p1 {
+    color: #ffff;
+}
+
+.p2 {
+    color: #ffff;
+}
+
+
+.hero-text {
+    padding: 180px 0px 0px 204px;
+}
+
+.hero-btn {
+    margin: 42px 204px ;
+    background-color: #0B0E66;
+    width: 260px;
+    height: 80px;
+    border: 2px solid #26C7EA;
+    border-radius: 35px 0px;
+    line-height: 1.25;
+}
+
+.hero-btn-text {
+    color: #26C7EA;
+}
+
+
+.hero2 {
+    background-image: url(../img/Avatar-hero228.jpg);
+    width: 1440px;
+    height: 741px;
+}
+
+.quote {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+   line-height: 1.2;
+}
+
+.cite {
+    
+}
+
+.bird {
+    width: 400px;
+   height: 120px;
+}
+
+
+
+.hero3 {
+    background-image: url(../img/Avatar-hero3.jpg);
+    width: 1440px;
+    background-repeat: no-repeat;
+}
+
+.hero-h {
+    display: flex;
+    justify-content: center;
+      font-weight: 400;
+      padding-top: 57px;
+}
+
+.navi-lang {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+.navi-lang-item {
+    background-color:rgba(255, 255, 255, 0.7);
+    height: 240px;
+    width: 320px;
+    padding: 36px  0;
+
+}
+
+.navi-lang-item:nth-child(-n+3) {
+    margin-bottom: 24px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 1032px;
+}
+
+
+.hero-btn2 {
+    margin: 355px 610px ;
+    background-color: #0B0E66;
+    width: 260px;
+    height: 80px;
+    border: 2px solid #26C7EA;
+    border-radius: 35px 0px;
+    color: #26C7EA;
+    line-height: 1.25;
+}
+
+.switch {
+    color: #ffff;
+}
+
+
+
+.navi-text {
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.navi-img {
+    display: block;
+    margin: 0 auto;
+   
+}
+
+.hero4 {
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(15, 72, 117, 0.87)),url(../img/Avatar-Head.png);
+    background-repeat: no-repeat;
+    height: 223px;
+}
+
+
+
+
+
+
+
+
