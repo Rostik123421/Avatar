@@ -1,9 +1,20 @@
-ul,h2,li,p,a {
+h2,li,p,ul,blockquote {
     padding: 0;
     margin: 0;
+}
+
+ul {
     list-style-type: none;
+}
+
+
+
+a {
     text-decoration: none;
-    font-family: 'Inter';
+}
+
+body {
+    font-family: 'Inter',sans-serif;
     font-style: normal;
 }
 
@@ -17,8 +28,12 @@ ul,h2,li,p,a {
 .header {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(15, 72, 117, 0.87)),url(../img/Avatar-Head.png);
     background-repeat: no-repeat;
-    height: 150px;
-    width: 1440px;
+    background-size: cover;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
 }
 
 .head-btn {
@@ -28,7 +43,7 @@ ul,h2,li,p,a {
     height: 42px;
     border: 2px solid #26C7EA;
     border-radius: 35px 0px;
-    text-decoration-color: #26C7EA;
+    color: #26C7EA;
     line-height: 1.25;
 }
 
@@ -67,18 +82,16 @@ ul,h2,li,p,a {
 }
 
 .hero-btn {
-    margin: 42px 204px ;
     background-color: #0B0E66;
     width: 260px;
     height: 80px;
     border: 2px solid #26C7EA;
+    color: #26C7EA;
     border-radius: 35px 0px;
     line-height: 1.25;
 }
 
-.hero-btn-text {
-    color: #26C7EA;
-}
+
 
 
 .hero2 {
@@ -95,7 +108,8 @@ ul,h2,li,p,a {
 }
 
 .cite {
-    
+    display: block;
+    font-style: normal;
 }
 
 .bird {
@@ -105,7 +119,7 @@ ul,h2,li,p,a {
 
 
 
-.hero3 {
+.navi {
     background-image: url(../img/Avatar-hero3.jpg);
     width: 1440px;
     background-repeat: no-repeat;
@@ -147,7 +161,6 @@ ul,h2,li,p,a {
 
 
 .hero-btn2 {
-    margin: 355px 610px ;
     background-color: #0B0E66;
     width: 260px;
     height: 80px;
@@ -172,13 +185,14 @@ ul,h2,li,p,a {
     flex-direction: column;
 }
  
-.navi-img {
-    display: block;
+.img {
+   display: block;
     margin: 0 auto;
+   width: 100px;
    
 }
 
-.hero4 {
+.footer {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(15, 72, 117, 0.87)),url(../img/Avatar-Head.png);
     background-repeat: no-repeat;
     height: 223px;
