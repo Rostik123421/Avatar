@@ -37,6 +37,7 @@ body {
     display: flex;
     padding: 39px 49px 39px 0;
     align-items: center;
+    border-bottom: 3px solid #ffffff;
 }
 
 .header-left {
@@ -101,13 +102,19 @@ line-height: 1.2;
 
 
 
-.hero {
+.hero-section {
    background-image: url(../img/Avatar-Hero.jpg);
-   height: 740px;
-   width: 1440px;
- margin-top: 5px;
+ padding: 180px 0;
 
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 .p1 {
     color: #ffff;
@@ -123,7 +130,11 @@ line-height: 1.2;
 
 
 .hero-text {
-    padding: 180px 0px 0px 204px;
+   
+}
+
+.bow {
+margin-left: 53px;
 }
 
 .hero-btn {
@@ -254,6 +265,14 @@ line-height: 24px;
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.insta {
+    margin-bottom:24px;
+}
+
+.twit {
+    margin-bottom: 27px;
+}
  
 .img {
    display: block;
@@ -266,30 +285,81 @@ line-height: 24px;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(15, 72, 117, 0.87)),url(../img/Avatar-Head.png);
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
-    height: 223px;
+    justify-content: space-between;
+    align-items: center;
     background-size:cover;
     padding: 35px 0 25px;
 }
 
-.footer-list {
+.footter {
     display: flex;
-    flex-direction: row;
+    width: 1032px;
+    margin: 0 auto;
+}
+
+.footer-list {
+   display: block;
+   width: 689px;
+   margin: 45px 0 37px;
+}
+
+.footer-line {
+    border: 2px solid #ffff;
+    height: 153px;
+    margin: 0 80px 10px ;
 }
 
 .footer-list-text {
     font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 color: #ffff;
 
 }
 
+.footer-dash {
+   margin: 0 20px;
+   width: 269px;
+}
+
+.footer-dash2 {
+    margin: 0 20px;
+   width: 194px;
+}
 
 
 
+.footer-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-family: 'Inter';
+   font-size: 20px ;
+   line-height: 1.2;
+   color: #ffff;
+}
 
 
+.footer-list-item {
+    display: flex;
+    align-items: center;
+}
 
+.footer-list-item:nth-child(1) {
+    margin-bottom: 16px ;
+}
+
+
+.avatar-logo2 {
+    margin: 42px 0 51px ;
+}
+
+
+.footer-bottom-text {
+    font-weight: 400;
+    font-size: 14px;
+   line-height: 1.2;
+   text-align: center;
+}
 
